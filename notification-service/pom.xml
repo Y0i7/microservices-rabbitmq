@@ -12,7 +12,7 @@
 	<artifactId>notification-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>notification-service</name>
-	<description>Notification service recive and notify when a message arrives</description>
+	<description>Notification service receive and notify when a message arrives</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -48,6 +48,10 @@
 			<groupId>org.springframework.amqp</groupId>
 			<artifactId>spring-rabbit-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.retry</groupId>
+			<artifactId>spring-retry</artifactId>
 		</dependency>
 	</dependencies>
 
